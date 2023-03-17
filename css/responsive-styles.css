@@ -1,0 +1,17 @@
+@media (max-width:500px) {
+    #container {
+        margin: 2rem;
+    }
+
+    .col p {
+        margin-bottom: 3rem;
+    } 
+
+    .Sedan {
+        border-radius: 3% 3% 0 0;
+    }
+
+    .Luxury {
+        border-radius: 0 0 3% 3%;
+    }
+}

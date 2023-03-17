@@ -1,0 +1,84 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/* Main */
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    justify-items: start;
+    align-items: center;
+    margin: 5rem 10rem 10rem;
+}
+
+.col {
+    padding: 3rem 4rem 5rem 3rem;
+}
+
+/* Card Body */
+.col h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color:white;
+    font-size: 36px;
+}
+
+.col p {
+    font-family: 'Lexend Deca', serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+    font-size: 15px;
+    margin-bottom: 6rem;
+}
+
+.Sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 3% 0 0 3%;
+}
+
+.SUV {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 3% 3% 0;
+}
+
+/* Buttons */
+.button {
+    background-color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.Sedan .button {
+    color:hsl(31, 77%, 52%);
+}
+
+.SUV .button{
+    color: hsl(184, 100%, 22%);
+}
+
+.Luxury .button{
+    color:hsl(179, 100%, 13%);
+}
+
+
+/* Footer */
+.attribution { 
+    font-size: 16px; 
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+ }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    font-family: 'Lexend Deca', sans-serif;
+ }
