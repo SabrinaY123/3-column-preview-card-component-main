@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    background-color: hsl(0, 0%, 95%);
 }
 
 /* Main */
@@ -22,7 +23,7 @@ body {
 /* Card Body */
 .col h2 {
     font-family: 'Big Shoulders Display', sans-serif;
-    color:white;
+    color:hsl(0, 0%, 95%);
     font-size: 36px;
 }
 
@@ -50,7 +51,7 @@ body {
 
 /* Buttons */
 .button {
-    background-color: white;
+    background-color:hsl(0, 0%, 95%);
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 25px;
