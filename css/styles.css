@@ -84,9 +84,11 @@ body {
     font-size: 16px; 
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
+    margin: 3rem;
  }
 
 .attribution a { 
     color: hsl(228, 45%, 44%);
     font-family: 'Lexend Deca', sans-serif;
  }
+
