@@ -1,10 +1,10 @@
-@media (max-width:500px) {
+@media (max-width:600px) {
     #container {
         margin: 2rem;
     }
 
     .col p {
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
     } 
 
     .Sedan {
@@ -13,5 +13,22 @@
 
     .Luxury {
         border-radius: 0 0 3% 3%;
+    }
+}
+
+@media (min-width:600px) and (max-width:1050px) {
+    .Sedan {
+        border-radius: 0;
+    }
+
+    .Luxury {
+        border-radius: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    #container {
+        margin:5rem 7rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     }
 }

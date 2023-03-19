@@ -13,7 +13,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     justify-items: start;
     align-items: center;
-    margin: 5rem 10rem 10rem;
+    margin: 5rem;
 }
 
 .col {
@@ -52,6 +52,7 @@ body {
 /* Buttons */
 .button {
     background-color:hsl(0, 0%, 95%);
+    color: unset;
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 25px;
@@ -59,18 +60,11 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.Sedan .button {
-    color:hsl(31, 77%, 52%);
+.button:hover {
+    background-color: inherit;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%)!important;
 }
-
-.SUV .button{
-    color: hsl(184, 100%, 22%);
-}
-
-.Luxury .button{
-    color:hsl(179, 100%, 13%);
-}
-
 
 /* Footer */
 .attribution { 
