@@ -4,7 +4,7 @@
     }
 
     .col p {
-        margin-bottom: 2.5rem;
+        margin-bottom: 4rem;
     } 
 
     .Sedan {
@@ -14,21 +14,37 @@
     .Luxury {
         border-radius: 0 0 3% 3%;
     }
+
+    .button {
+        font-size:17px;
+    }
 }
 
-@media (min-width:600px) and (max-width:1050px) {
+@media (min-width:600px) and (max-width:1100px) {
+    #container {
+        margin: 4rem;
+        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    }
     .Sedan {
         border-radius: 0;
     }
 
     .Luxury {
         border-radius: 0;
+        font-size: 12px;
+    }
+
+    .button {
+        padding: 0.7rem 1.4rem;
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1280px) {
     #container {
-        margin:5rem 7rem;
-        grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+        margin:5rem 10rem;
+    }
+
+    footer {
+        margin: 5rem 10rem;
     }
 }

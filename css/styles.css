@@ -17,7 +17,7 @@ body {
 }
 
 .col {
-    padding: 3rem 4rem 5rem 3rem;
+    padding: 3rem 4rem 4rem 3rem;
 }
 
 /* Card Body */
@@ -32,7 +32,8 @@ body {
     color:  hsla(0, 0%, 100%, 0.75);
     line-height: 2;
     font-size: 15px;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
+    height: 120px;
 }
 
 .Sedan {
@@ -64,6 +65,18 @@ body {
     background-color: inherit;
     border: 2px solid hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%)!important;
+}
+
+.Sedan .button {
+    color:hsl(31, 77%, 52%);
+}
+
+.SUV .button {
+    color:hsl(184, 100%, 22%);
+}
+
+.Luxury .button {
+    color: hsl(179, 100%, 13%);
 }
 
 /* Footer */
